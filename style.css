@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+  background-color: rgb(207, 149, 61);
+  background-image: url("img/back.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+
+ }
+.sidbar{
+  background-color: white;
+  width: 37vh;
+  height: 100vh;
+  position: fixed;
+  right: 0%;
+  display: flex;
+  flex-direction: column;
+  border-end-start-radius: 35vh;
+  
+}
+.sidbar > .logo{
+  padding-left: 7vh;
+  padding-top: 2vh;
+}
+.sidbar > ul{
+  margin: 5vh;
+  margin-top: 16vh;
+}
+.sidbar > ul > li{
+  margin: 5vh;
+}
+.sidbar > ul > li > a> button{
+  width: 15vh;
+  height: 4vh;
+  color: white;
+  background-color: black;
+  border: none;
+}
+.sidbar > .connect{
+  margin: 5vh;
+}
+.sidbar > .connect > li{
+  margin: 10vh; 
+}
+
